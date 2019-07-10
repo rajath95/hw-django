@@ -1,58 +1,14 @@
 <html>
 <head>
-<style>
 
+{% load static %}
 
-h1{
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 
-  font-family:Ubuntu;
-  color:blue;
-  background:black;
-  display: inline-block;
-  text-align:center;
+</head>
 
-}
-
-.container{
-  overflow:hidden;
-  height:100%";
-
-  position: relative;
-  left: 100px;
-  top:80px;
-  background:silver;
-  color:white;
-}
-
-.container th {
-  height:50px;
-  color:red;
-  font-family:"Ubuntu";
-  background:black;
-}
-
-.container td {
-   padding: 10px 10px 10px 10px;
-  height:30px;
-  color:gold;
-  font-family:"Arial";
-  background:black;
-}
-
-.hq{
-  background:silver;
-  color:black;
-  font-family:Arial;
-
-
-}
-
-    </style>
-
-  </head>
-
-  <body bgcolor="grey">
-      <h1> <center><span class="hi"> BOOK </span> <span class="hq"> LIST </span> </center> </h1>
+<body bgcolor="grey">
+  <h1> <center><span class="hi"> BOOK </span> <span class="hq"> LIST </span> </center> </h1>
     <div  class="container">
     <center>  <table border="solid blue 50px">
         <th > TITLE </th>

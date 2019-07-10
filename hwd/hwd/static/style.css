@@ -1,0 +1,39 @@
+
+
+h1{
+  font-family:Ubuntu;
+  color:blue;
+  background:black;
+  display: inline-block;
+  text-align:center;
+}
+
+.container{
+  overflow:hidden;
+  height:100%;
+  left: 100px;
+  top:80px;
+  background:silver;
+  color:white;
+}
+
+.container th {
+  height:50px;
+  color:red;
+  font-family:"Ubuntu";
+  background:black;
+}
+
+.container td {
+   padding: 10px 10px 10px 10px;
+  height:30px;
+  color:gold;
+  font-family:"Arial";
+  background:black;
+}
+
+.hq{
+  background:silver;
+  color:black;
+  font-family:Arial;
+}
