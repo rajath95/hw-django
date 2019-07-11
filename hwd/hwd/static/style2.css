@@ -1,0 +1,50 @@
+
+body
+{
+  background:SILVER;
+  color:white;
+}
+
+.title
+{
+  font-family: AriaL;
+  color:blue;
+  background:black;
+
+  position: relative;
+}
+
+.contain
+{
+  font-family: AriaL;
+  color:black;
+  background:silver;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+.form
+{
+  position: relative;
+  top:100px;
+  left:450px;
+  color:black;
+  font-weight: bold;
+  font-family: Ubuntu;
+  display: inline;
+}
+
+.container
+{
+  left:10%;
+  background:grey;
+  height:20%;
+
+}
+
+h1
+{
+  background: grey;
+}
